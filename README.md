@@ -23,9 +23,9 @@ Then...
 
 Add `django-gcalsync` to your settings.py. 
  
-Add a GCALSYNC_CREDENTIALS property to your settings.py - this should be the full path to the credentials file you created in Authentication above.
+Add a `GCALSYNC_CREDENTIALS` property to your settings.py - this should be the full path to the credentials file you created in Authentication above.
 
-Add a GCALSYNC_APIKEY property to your settings.py - this is the key generated in the Google App Console in Authentication.
+Add a `GCALSYNC_APIKEY` property to your settings.py - this is the key generated in the Google App Console in Authentication.
 
 Assuming you're using [South](http://south.aeracode.org/), migrate models `python manage.py migrate django-gcalsync`
 
